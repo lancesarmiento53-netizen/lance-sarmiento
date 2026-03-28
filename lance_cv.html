@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lance Ehrold Sarmiento — Curriculum Vitae</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-size: 10.8pt; }
+
+  body {
+    background: #e8e4de;
+    font-family: 'EB Garamond', serif;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 16px 56px;
+  }
+
+  .dl-bar {
+    width: 100%; max-width: 680px;
+    display: flex; justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  .dl-btn {
+    background: #000; color: #fff; border: none;
+    padding: 7px 20px; cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.66rem; font-weight: 600;
+    letter-spacing: 1.8px; text-transform: uppercase;
+    border-radius: 2px; transition: background .2s;
+  }
+  .dl-btn:hover { background: #333; }
+
+  .cv {
+    width: 100%; max-width: 680px;
+    background: #fff;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.10);
+    padding: 44px 48px 40px;
+  }
+
+  /* ── HEADER ── */
+  .hd {
+    text-align: center;
+    padding-bottom: 12px;
+    border-bottom: 1.5px solid #000;
+    margin-bottom: 14px;
+  }
+  .hd-name {
+    font-size: 22pt; font-weight: 600;
+    letter-spacing: 2px; text-transform: uppercase;
+    line-height: 1.1;
+  }
+  .hd-contact {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 8pt; color: #333;
+    margin-top: 5px; line-height: 1.8;
+  }
+  .hd-contact a { color: #333; text-decoration: none; }
+  .hd-title {
+    font-size: 9pt; font-style: normal;
+    color: #333; margin-top: 4px;
+  }
+
+  /* ── SECTION ── */
+  .sec { margin-bottom: 13px; }
+  .sec-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 8pt; font-weight: 700;
+    letter-spacing: 1.6px; text-transform: uppercase;
+    color: #000; padding-bottom: 4px;
+    border-bottom: 1.5px solid #000;
+    margin-bottom: 9px;
+  }
+
+  /* ── ENTRY ── */
+  .entry { margin-bottom: 9px; }
+  .entry:last-child { margin-bottom: 0; }
+  .erow { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+  .etitle { font-size: 10pt; font-weight: 600; color: #000; }
+  .edate {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 8pt; color: #000;
+    white-space: nowrap; flex-shrink: 0;
+  }
+  .esub { font-size: 9.2pt; font-style: normal; color: #222; margin: 1px 0 4px; }
+  .espec {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 6.8pt; letter-spacing: 0.8px;
+    text-transform: uppercase; color: #444;
+    margin-bottom: 4px;
+  }
+  ul.eb { list-style: none; padding: 0; }
+  ul.eb li {
+    font-size: 9.5pt; color: #000;
+    padding-left: 14px; position: relative;
+    line-height: 1.65; margin-bottom: 3px;
+  }
+  ul.eb li::before { content: '–'; position: absolute; left: 0; color: #000; }
+  ul.eb li b { font-weight: 600; }
+
+  /* ── PROFILE ── */
+  .profile {
+    font-size: 9.5pt; font-style: normal;
+    color: #111; line-height: 1.7;
+  }
+
+  /* ── SKILLS / INTERESTS LINE ── */
+  .inline-list {
+    font-size: 9.2pt; color: #111; line-height: 1.7;
+  }
+  .inline-list b { font-weight: 600; }
+
+  /* ── FOOTER ── */
+  .cv-foot {
+    margin-top: 20px; padding-top: 8px;
+    border-top: 1px solid #ccc;
+    display: flex; justify-content: space-between;
+  }
+  .cv-foot span, .cv-foot a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 7pt; color: #888; text-decoration: none;
+  }
+
+  /* ── PRINT ── */
+  @media print {
+    * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    @page { margin: 9mm 11mm; size: A4; }
+    html { font-size: 9.6pt; }
+    body { background: white !important; padding: 0 !important; }
+    .dl-bar { display: none !important; }
+    .cv { box-shadow: none !important; max-width: 100% !important; padding: 0 !important; }
+  }
+</style>
+</head>
+<body>
+
+<div class="dl-bar">
+  <button class="dl-btn" onclick="window.print()">&#8595; Download CV</button>
+</div>
+
+<div class="cv">
+
+  <!-- HEADER -->
+  <div class="hd">
+    <div class="hd-name">Lance Ehrold Sarmiento</div>
+    <div class="hd-contact">
+      <a href="mailto:lanceehroldsarmiento.work@gmail.com">lanceehroldsarmiento.work@gmail.com</a>
+      &nbsp;&nbsp;·&nbsp;&nbsp;(+63) 976 032 6904&nbsp;&nbsp;·&nbsp;&nbsp;
+      <a href="https://www.linkedin.com/in/lance-ehrold-s-98b426212/">linkedin.com/in/lance-ehrold-s</a>
+      &nbsp;&nbsp;·&nbsp;&nbsp;Quezon City, Philippines
+    </div>
+    <div class="hd-title">Clinical Study Manager &nbsp;·&nbsp; Clinical Database Architect &nbsp;·&nbsp; Trial Master File Lead &nbsp;·&nbsp; Clinical UX &amp; Product Liaison</div>
+  </div>
+
+  <!-- PROFILE -->
+  <div class="sec">
+    <div class="sec-title">Profile</div>
+    <p class="profile" style="font-style:normal;">Clinical Study Manager with over four years of experience across Phase I–IV clinical trials in the Philippines, United States, and Canada. Specialises in EDC and eCRF design, Trial Master File ownership, and AI-enabled clinical operations. Experienced in simultaneous management of clinical operations, data management, regulatory compliance, product UX, and project finance within a growth-stage clinical technology company. Comfortable collaborating across multinational teams spanning the US, Canada, Vietnam, and the Philippines.</p>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="sec">
+    <div class="sec-title">Professional Experience</div>
+
+    <div class="entry">
+      <div class="erow">
+        <div class="etitle">Clinical Study Manager</div>
+        <div class="edate">February 2024 – Present</div>
+      </div>
+      <div class="esub">Talosix, Seattle, WA — Growth-Stage Clinical Technology Company</div>
+      <div class="espec">Clinical Database Architect &nbsp;·&nbsp; Trial Master File Lead &nbsp;·&nbsp; Clinical UX &amp; Product Liaison</div>
+      <ul class="eb">
+        <li><b>Clinical Operations:</b> Managed Phase I–IV trial execution across Oncology, Investigational Product (IP), and Orthopaedic Registry studies — site activation, CRA training, monitoring, and regulatory documentation across the US and Canada</li>
+        <li><b>Database Architecture:</b> Led eCRF design and build aligned to study protocols; developed data validation scripts, edit check logic, and data review plans for protocol-specific endpoints and adverse event reporting</li>
+        <li><b>TMF Lead/Owner:</b> Owned and maintained the Trial Master File across concurrent studies via Kivo, ensuring inspection-readiness per ICH E6(R2) and the TMF Reference Model</li>
+        <li><b>Product UX:</b> Clinical UX representative for AI-enabled modules — Endpoint Adjudication (Oncology), automated MedDRA/WHODrug coding (IP), and remote trial inventory (multi-site IP accountability)</li>
+        <li><b>Client Management:</b> Primary sponsor and CRO contact for contract coordination, scope alignment, and kick-offs across Oncology, IP, and Registry portfolios</li>
+        <li><b>Quality &amp; Compliance:</b> Developed SOPs, validation plans, and training materials ensuring GCP and 21 CFR Part 11 compliance</li>
+        <li><b>Finance:</b> Managed project financials, site reimbursement verification, and payment tracking</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="erow">
+        <div class="etitle">Senior Project Manager</div>
+        <div class="edate">July 2022 – July 2023</div>
+      </div>
+      <div class="esub">Philippine Council for Health Research and Development (PCHRD), DOST</div>
+      <ul class="eb">
+        <li>Primary liaison for WHO, NICT Tokyo, EU-Greentech Initiative, e-ASIA JRP, Baylor College of Medicine, and the Department of Health</li>
+        <li>Oversaw end-to-end project management from drug discovery to pre-clinical trials; key strategic role in planning the Virology and Vaccine Institute of the Philippines (VIP)</li>
+        <li>Drafted technical position papers, policy briefs, and legislative documents for senior government and international stakeholders</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="erow">
+        <div class="etitle">Project Management Consultant</div>
+        <div class="edate">February – June 2023</div>
+      </div>
+      <div class="esub">Technology Application and Promotion Institute (TAPI), DOST</div>
+    </div>
+
+    <div class="entry">
+      <div class="erow">
+        <div class="etitle">Junior Project Manager</div>
+        <div class="edate">May 2021 – June 2022</div>
+      </div>
+      <div class="esub">Philippine Council for Health Research and Development (PCHRD), DOST</div>
+    </div>
+
+    <div class="entry">
+      <div class="erow">
+        <div class="etitle">Laboratory Analyst</div>
+        <div class="edate">February – July 2020</div>
+      </div>
+      <div class="esub">University of the Philippines Manila — Biological Models Laboratory</div>
+      <ul class="eb">
+        <li>Drug discovery research utilising C. elegans models to identify therapeutic compounds and study disease mechanisms from Philippine natural products</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="sec">
+    <div class="sec-title">Education</div>
+    <div class="entry">
+      <div class="erow">
+        <div class="etitle">Bachelor of Science in Biochemistry</div>
+        <div class="edate">2019</div>
+      </div>
+      <div class="esub">University of Santo Tomas, Sampaloc, Manila</div>
+    </div>
+  </div>
+
+  <!-- SKILLS & TOOLS -->
+  <div class="sec">
+    <div class="sec-title">Skills, Tools &amp; Therapeutic Areas</div>
+    <p class="inline-list">
+      <b>Clinical:</b> Phase I–IV Trial Management, EDC/eCRF Design, TMF Management, GCP &amp; 21 CFR Part 11 Compliance, MedDRA/WHODrug Coding, Data Validation &amp; Query Management, ICH E6(R2), HIPAA, Applied AI in Clinical Operations<br>
+      <b>Platforms:</b> Epic EHR &nbsp;·&nbsp; Medidata Rave &nbsp;·&nbsp; Oracle Clinical &nbsp;·&nbsp; Kivo &nbsp;·&nbsp; Monday.com &nbsp;·&nbsp; JIRA<br>
+      <b>Therapeutic Areas:</b> Oncology &nbsp;·&nbsp; Investigational Product (IP) Trials &nbsp;·&nbsp; Orthopaedic Registry
+    </p>
+  </div>
+
+  <!-- CERTIFICATIONS -->
+  <div class="sec">
+    <div class="sec-title">Licences &amp; Certifications</div>
+    <p class="inline-list">
+      Certificate of Completion: Claude 101, Anthropic (Mar 2026) &nbsp;·&nbsp;
+      AI Fluency Framework &amp; Foundations, Anthropic (Mar 2026) &nbsp;·&nbsp;
+      Negotiation Foundations, LinkedIn (Feb 2026) &nbsp;·&nbsp;
+      HIPAA Security, HIPAATraining.com (Dec 2025, exp. Dec 2027) &nbsp;·&nbsp;
+      HIPAA Awareness for Business Associates, HIPAATraining.com (Dec 2025, exp. Dec 2027) &nbsp;·&nbsp;
+      TMF Standard Model V1, Kivo (Dec 2025) &nbsp;·&nbsp;
+      Good Clinical Practice (GCP), NIDA Clinical Trials Network (Feb 2024) &nbsp;·&nbsp;
+      Project Management Specialization, Google/Coursera (Jun 2023) &nbsp;·&nbsp;
+      Agile Software Management, University of Minnesota (May 2023)
+    </p>
+  </div>
+
+  <!-- AWARDS -->
+  <div class="sec">
+    <div class="sec-title">Awards &amp; Recognition</div>
+    <div class="entry">
+      <div class="erow">
+        <div class="etitle">Champion — Young Scientists Forum 2019</div>
+        <div class="edate">November 2019</div>
+      </div>
+      <div class="esub">46th Philippine Society of Biochemistry and Molecular Biology Annual Conference</div>
+    </div>
+    <div class="entry">
+      <div class="erow">
+        <div class="etitle">Gawad Pananaliksik (Research Excellence Award)</div>
+        <div class="edate">March 2019</div>
+      </div>
+      <div class="esub">University of Santo Tomas</div>
+    </div>
+    <div class="entry">
+      <div class="erow">
+        <div class="etitle">Best Operations Committee Member</div>
+        <div class="edate">March 2018</div>
+      </div>
+      <div class="esub">Philippine Association of Chemistry Students</div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="cv-foot">
+    <span>&#169; 2026 Lance Ehrold Sarmiento</span>
+    <a href="https://lancesarmiento53-netizen.github.io/lance-sarmiento">lancesarmiento53-netizen.github.io/lance-sarmiento</a>
+  </div>
+
+</div>
+</body>
+</html>
